@@ -14,7 +14,7 @@ while(True):
 	b = a
 	while(b==a and b!=0):
 		b = random.randint(0,bzwd)
-	if(sys.platform[:2]=='win'):
+	if(sys.platform[:3]=='win'):
 		os.system("cls")
 	else:
 		os.system("clear")
