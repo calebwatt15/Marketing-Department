@@ -14,7 +14,10 @@ while(True):
 	b = a
 	while(b==a and b!=0):
 		b = random.randint(0,bzwd)
-	os.system("clear")
+	if(sys.platform[:2]=='win'):
+		os.system("cls")
+	else:
+		os.system("clear")
 	print(bar[a] + " " + bar[b])
 	print("Press enter for a new buzzword pair.")
 	pyVersion = sys.version[0]
