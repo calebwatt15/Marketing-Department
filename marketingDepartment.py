@@ -5,7 +5,7 @@ import random
 import os
 import sys
 
-buzzwords = ['cyber', 'cloud', 'threat', 'analytics', 'infrastructure', 'software-as-a-service', 'virtualization', 'distributed', 'denial', 'critical', 'mission', 'mobile', 'platform', 'intensive', 'application', 'intelligence', 'architecture', 'data', 'gathering', 'information', 'system', 'end-user', 'support', 'cross', 'fault', 'security', 'BYOD', 'defense', 'license', 'multiplatform', 'integration', 'network', 'admin', 'reverse engineering', 'testing', 'product', 'global', 'password', 'management', 'research', 'development', 'root', 'software', 'hardware', 'kernel', 'exploit', 'proprietary', 'server', 'cyberbullying', 'VOiP', 'web-based', 'front-end', 'workflow', 'optimization', 'innovative', 'specialized', 'attack-vector', 'professional', 'leader', 'forensics', 'occupational', 'hashtag', 'social']
+buzzwords = ['cyber', 'cloud', 'threat', 'analytics', 'infrastructure', 'software-as-a-service', 'virtualization', 'distributed', 'denial', 'critical', 'mission', 'mobile', 'platform', 'intensive', 'application', 'intelligence', 'architecture', 'data', 'gathering', 'information', 'system', 'end-user', 'support', 'cross', 'fault', 'security', 'BYOD', 'defense', 'license', 'multiplatform', 'integration', 'network', 'admin', 'reverse engineering', 'testing', 'product', 'global', 'password', 'management', 'research', 'development', 'root', 'software', 'hardware', 'kernel', 'exploit', 'proprietary', 'server', 'cyberbullying', 'VOiP', 'web-based', 'front-end', 'workflow', 'optimization', 'innovative', 'specialized', 'attack-vector', 'professional', 'leader', 'forensics', 'occupational', 'hashtag', 'social', 'blockchain']
 
 
 def getBuzzwords(maxWord):
