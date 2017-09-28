@@ -1,7 +1,7 @@
 # Marketing-Department
 USAGE: python marketingDepartment.py
 
-This will spit out a pair of buzzwords. Press enter for a new pair. Use these buzzwords to string together super  legit marketing for you oh-so-unique product.
+This will spit out a pair of buzzwords. Press enter for a new pair. Use these buzzwords to string together super legit marketing for your oh-so-unique product.
 
 I.E.
 Our product is the **application leader** in **intensive forensics** related to **intelligence critical** **server denial**.
